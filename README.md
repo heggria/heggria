@@ -11,8 +11,6 @@
 
 > 📦 226.9 kB Used in GitHub's Storage 
  > 
-> 🏆 4 Contributions in the Year 2025
- > 
 > 🚫 Not Opted to Hire
  > 
 > 📜 43 Public Repositories 
@@ -75,5 +73,5 @@ CSS                      2 repos             ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/heggria/heggria/main/assets/bar_graph.png)
 
 
- Last Updated on 19/03/2025 18:52:04 UTC
+ Last Updated on 20/03/2025 18:49:54 UTC
 <!--END_SECTION:waka-->
