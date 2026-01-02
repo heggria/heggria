@@ -1,8 +1,6 @@
 ### 👋 Hi, I'm Heggria.
 
 <!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C037%20hrs%2020%20mins-blue)
-
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-3-blue)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-24.79%20million%20lines%20of%20code-blue)
@@ -19,45 +17,6 @@
  > 
 > 🔑 5 Private Repositories 
  > 
-**I'm an Early 🐤** 
-
-```text
-🌞 Morning                167 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.49 % 
-🌆 Daytime                380 commits         █████████░░░░░░░░░░░░░░░░   35.25 % 
-🌃 Evening                515 commits         ████████████░░░░░░░░░░░░░   47.77 % 
-🌙 Night                  16 commits          ░░░░░░░░░░░░░░░░░░░░░░░░░   01.48 % 
-```
-📅 **I'm Most Productive on Saturday** 
-
-```text
-Monday                   139 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.89 % 
-Tuesday                  139 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.89 % 
-Wednesday                138 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.80 % 
-Thursday                 131 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.15 % 
-Friday                   128 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.87 % 
-Saturday                 245 commits         ██████░░░░░░░░░░░░░░░░░░░   22.73 % 
-Sunday                   158 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.66 % 
-```
-
-
-📊 **This Week I Spent My Time On** 
-
-```text
-🕑︎ Time Zone: Asia/Shanghai
-
-💬 Programming Languages: 
-No Activity Tracked This Week
-
-🔥 Editors: 
-No Activity Tracked This Week
-
-🐱‍💻 Projects: 
-No Activity Tracked This Week
-
-💻 Operating System: 
-No Activity Tracked This Week
-```
-
 **I Mostly Code in TypeScript** 
 
 ```text
@@ -75,5 +34,5 @@ CSS                      2 repos             ██░░░░░░░░░�
 ![Lines of Code chart](https://raw.githubusercontent.com/heggria/heggria/main/assets/bar_graph.png)
 
 
- Last Updated on 01/01/2026 18:55:12 UTC
+ Last Updated on 02/01/2026 18:54:27 UTC
 <!--END_SECTION:waka-->
