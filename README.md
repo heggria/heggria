@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=CBA6F7&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Heggria;Full-Stack+Developer+%E2%80%A2+AI+Agent+Builder" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=CBA6F7&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Heggria;AI+Agent+Architect+%E2%80%A2+Full-Stack+Builder" alt="Typing SVG" />
 </a>
 
 <br/>
@@ -19,13 +19,55 @@
 ```typescript
 const heggria = {
   location: "Beijing, China",
-  company: "@minimax",
-  role: "Full-Stack Developer",
-  focus: ["AI Agents", "Vue Ecosystem", "Developer Tools"],
+  company: "@minimax",              // building the next frontier of AI
+  role: "AI Agent Architect & Full-Stack Developer",
+  building: "Hermit — a governed agent kernel",
+  focus: ["AI Agent Infrastructure", "Agent Governance & Trust",
+          "LLM Tooling", "Vue Ecosystem"],
   stack: ["TypeScript", "Python", "Vue", "Node.js"],
-  motto: "Build tools that think.",
+  believe: "Agents should be inspectable, interruptible, and auditable.",
 };
 ```
+
+<br/>
+
+## 🔮 Currently Building
+
+<div align="center">
+
+<a href="https://github.com/heggria/Hermit">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-icon-white.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-macos-icon.svg" />
+    <img src="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-macos-icon.svg" alt="Hermit" width="80" height="80" />
+  </picture>
+</a>
+
+### [Hermit](https://github.com/heggria/Hermit) — Governed Agent Kernel
+
+**Local-first governed agent kernel for durable, inspectable, operator-trust-oriented AI work.**
+
+[![PyPI](https://img.shields.io/pypi/v/hermit-agent?style=flat-square&color=cba6f7&labelColor=1e1e2e)](https://pypi.org/project/hermit-agent/)
+[![Downloads](https://img.shields.io/pypi/dm/hermit-agent?style=flat-square&color=89b4fa&labelColor=1e1e2e)](https://pypi.org/project/hermit-agent/)
+[![CI](https://img.shields.io/github/actions/workflow/status/heggria/Hermit/ci.yml?style=flat-square&label=CI&color=a6e3a1&labelColor=1e1e2e)](https://github.com/heggria/Hermit/actions)
+[![Docs](https://img.shields.io/badge/docs-github%20pages-f5c2e7?style=flat-square&labelColor=1e1e2e)](https://heggria.github.io/Hermit/)
+[![Discord](https://img.shields.io/discord/1483353136834936924?style=flat-square&logo=discord&logoColor=cdd6f4&color=b4befe&labelColor=1e1e2e&label=Discord)](https://discord.gg/XCYqF3SN)
+
+</div>
+
+> Most agent tools optimize for *"helpful right now."*
+> Hermit optimizes for *"still legible after the run."*
+
+```
+task → step → policy → approval → scoped authority → execution → receipt → proof / rollback
+```
+
+| Instead of... | Hermit emphasizes... |
+|:---|:---|
+| Chat-first sessions | Task-first durable work |
+| Direct model-to-tool execution | Policy, approval & scoped authority |
+| Tool logs as "audit" | Receipts, proof summaries & exportable proof bundles |
+| Memory as sticky notes | Evidence-bound memory governance |
 
 <br/>
 
@@ -33,17 +75,17 @@ const heggria = {
 
 <div align="center">
 
-**Languages**
+**AI & Agent Infrastructure**
 
-<img src="https://skillicons.dev/icons?i=ts,js,py,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,docker&theme=dark" />
 
-**Frameworks & Libraries**
+**Frontend & Full-Stack**
 
-<img src="https://skillicons.dev/icons?i=vue,nuxt,react,nodejs,fastapi&theme=dark" />
+<img src="https://skillicons.dev/icons?i=ts,js,vue,nuxt,react,nodejs&theme=dark" />
 
-**Tools & Infrastructure**
+**Tools & Platform**
 
-<img src="https://skillicons.dev/icons?i=git,docker,vscode,linux,github&theme=dark" />
+<img src="https://skillicons.dev/icons?i=git,linux,vscode,github&theme=dark" />
 
 </div>
 
@@ -72,22 +114,22 @@ const heggria = {
 
 <br/>
 
-## 🚀 Featured Projects
+## 🚀 More Projects
 
 <div align="center">
-  <a href="https://github.com/heggria/Hermit">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=Hermit&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
-  </a>
   <a href="https://github.com/heggria/agent-usage-atlas">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=agent-usage-atlas&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
   </a>
-</div>
-<div align="center">
   <a href="https://github.com/heggria/VueScope">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=VueScope&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
   </a>
+</div>
+<div align="center">
   <a href="https://github.com/heggria/lext">
     <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=lext&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
+  </a>
+  <a href="https://github.com/heggria/local-rag-mcp">
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=local-rag-mcp&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
   </a>
 </div>
 
