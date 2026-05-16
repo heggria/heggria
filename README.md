@@ -154,6 +154,8 @@ task → step → policy → approval → scoped authority → execution → rec
 <br/>
 
 <!--START_SECTION:waka-->
+![Code Time](http://img.shields.io/badge/Code%20Time-1%2C038%20hrs%205%20mins-blue?style=flat)
+
 ![Profile Views](http://img.shields.io/badge/Profile%20Views-0-blue?style=flat)
 
 ![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-2.75%20million%20lines%20of%20code-blue?style=flat)
@@ -170,12 +172,40 @@ task → step → policy → approval → scoped authority → execution → rec
  > 
 > 🔑 5 Private Repositories 
  > 
+**I'm an Early 🐤** 
+
+```text
+🌞 Morning                175 commits         ████░░░░░░░░░░░░░░░░░░░░░   14.00 % 
+🌆 Daytime                639 commits         █████████████░░░░░░░░░░░░   51.12 % 
+🌃 Evening                366 commits         ███████░░░░░░░░░░░░░░░░░░   29.28 % 
+🌙 Night                  70 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   05.60 % 
+```
+📅 **I'm Most Productive on Tuesday** 
+
+```text
+Monday                   143 commits         ███░░░░░░░░░░░░░░░░░░░░░░   11.44 % 
+Tuesday                  343 commits         ███████░░░░░░░░░░░░░░░░░░   27.44 % 
+Wednesday                263 commits         █████░░░░░░░░░░░░░░░░░░░░   21.04 % 
+Thursday                 129 commits         ███░░░░░░░░░░░░░░░░░░░░░░   10.32 % 
+Friday                   91 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   07.28 % 
+Saturday                 81 commits          ██░░░░░░░░░░░░░░░░░░░░░░░   06.48 % 
+Sunday                   200 commits         ████░░░░░░░░░░░░░░░░░░░░░   16.00 % 
+```
+
+
+📊 **This Week I Spent My Time On** 
+
+```text
+💬 Programming Languages: 
+No Activity Tracked This Week
+```
+
 **Timeline**
 
 ![Lines of Code chart](https://raw.githubusercontent.com/heggria/heggria/main/assets/bar_graph.png)
 
 
- Last Updated on 15/05/2026 20:04:16 UTC
+ Last Updated on 16/05/2026 19:41:13 UTC
 <!--END_SECTION:waka-->
 
 </details>
