@@ -1,219 +1,57 @@
 <div align="center">
 
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=4000&pause=1000&color=CBA6F7&center=true&vCenter=true&multiline=true&repeat=true&width=620&height=100&lines=Hi+%F0%9F%91%8B%2C+I'm+Heggria;AI+Agent+Architect+%E2%80%A2+Full-Stack+Builder" alt="Typing SVG" />
-</a>
+# Heggria
 
-<br/>
+### Agent Infrastructure Engineer · Developer Tools Builder
 
-<p>
-  <a href="https://heggria.site"><img src="https://img.shields.io/badge/Blog-heggria.site-cba6f7?style=for-the-badge&logo=hashnode&logoColor=cdd6f4&labelColor=1e1e2e" /></a>
-  <img src="https://img.shields.io/badge/Company-MiniMax-89b4fa?style=for-the-badge&logo=sparkles&logoColor=cdd6f4&labelColor=1e1e2e" />
-  <a href="mailto:bshengtao@gmail.com"><img src="https://img.shields.io/badge/Email-bshengtao-f5c2e7?style=for-the-badge&logo=gmail&logoColor=cdd6f4&labelColor=1e1e2e" /></a>
-</p>
+I build governed, inspectable, and recoverable systems for AI agents.
+
+[Website](https://heggria.site) · [GitHub](https://github.com/heggria) · [Bilibili](https://space.bilibili.com/20296120)
 
 </div>
 
-<br/>
+## What I work on
 
-```typescript
-const heggria = {
-  location: "Beijing, China",
-  company: "@minimax",              // building the next frontier of AI
-  role: "AI Agent Architect & Full-Stack Developer",
-  building: "Hermit — a governed agent kernel",
-  focus: ["AI Agent Infrastructure", "Agent Governance & Trust",
-          "LLM Tooling", "Vue Ecosystem"],
-  stack: ["TypeScript", "Python", "Vue", "Node.js"],
-  believe: "Agents should be inspectable, interruptible, and auditable.",
-};
-```
+Most agent systems optimize for completing the current turn. I am interested in the engineering that makes their work trustworthy after the turn is over:
 
-<br/>
+- explicit task graphs instead of orchestration hidden in prompts;
+- scoped authority and approval before consequential actions;
+- receipts, evidence, and replayable state after execution;
+- deterministic recovery when work fails or inputs change;
+- small, searchable tool surfaces instead of loading every integration at once.
 
-## 🔮 Currently Building
+My primary stack is **TypeScript, Python, Node.js, and Vue**. I work at **MiniMax** in Beijing.
 
-<div align="center">
+## Selected work
 
-<a href="https://github.com/heggria/Hermit">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-icon-white.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-macos-icon.svg" />
-    <img src="https://raw.githubusercontent.com/heggria/Hermit/main/docs/assets/hermit-macos-icon.svg" alt="Hermit" width="80" height="80" />
-  </picture>
-</a>
+| Project | What it proves | Status |
+| --- | --- | --- |
+| [Hermit](https://heggria.github.io/Hermit/) | A local-first governed agent kernel with approvals, scoped authority, receipts, proof export, and rollback-aware recovery. | [Docs](https://heggria.github.io/Hermit/) · [PyPI](https://pypi.org/project/hermit-agent/) |
+| [taskflow](https://github.com/heggria/taskflow) | A compiler and runtime for verifiable multi-agent DAGs across Pi, Codex, Claude Code, OpenCode, and Grok. Supports resume, replay, budgets, and incremental recomputation. | [Docs](https://heggria.github.io/taskflow/) · [Releases](https://github.com/heggria/taskflow/releases) · [CI](https://github.com/heggria/taskflow/actions) |
+| [Home Compass](https://github.com/heggria/home-compass) | A decision-support product that turns Beijing housing trade-offs and mortgage constraints into an explainable scorecard. | [Source](https://github.com/heggria/home-compass) |
+| [SBTI Lab](https://github.com/heggria/sbti-lab) | A shipped personality-testing web product and a compact example of product-focused TypeScript work. | [Source](https://github.com/heggria/sbti-lab) |
 
-### [Hermit](https://github.com/heggria/Hermit) — Governed Agent Kernel
-
-**Local-first governed agent kernel for durable, inspectable, operator-trust-oriented AI work.**
-
-[![PyPI](https://img.shields.io/pypi/v/hermit-agent?style=flat-square&color=cba6f7&labelColor=1e1e2e)](https://pypi.org/project/hermit-agent/)
-[![Downloads](https://img.shields.io/pypi/dm/hermit-agent?style=flat-square&color=89b4fa&labelColor=1e1e2e)](https://pypi.org/project/hermit-agent/)
-[![CI](https://img.shields.io/github/actions/workflow/status/heggria/Hermit/ci.yml?style=flat-square&label=CI&color=a6e3a1&labelColor=1e1e2e)](https://github.com/heggria/Hermit/actions)
-[![Docs](https://img.shields.io/badge/docs-github%20pages-f5c2e7?style=flat-square&labelColor=1e1e2e)](https://heggria.github.io/Hermit/)
-[![Discord](https://img.shields.io/discord/1483353136834936924?style=flat-square&logo=discord&logoColor=cdd6f4&color=b4befe&labelColor=1e1e2e&label=Discord)](https://discord.gg/XCYqF3SN)
-
-</div>
-
-> Most agent tools optimize for *"helpful right now."*
-> Hermit optimizes for *"still legible after the run."*
-
-```
-task → step → policy → approval → scoped authority → execution → receipt → proof / rollback
-```
-
-| Instead of... | Hermit emphasizes... |
-|:---|:---|
-| Chat-first sessions | Task-first durable work |
-| Direct model-to-tool execution | Policy, approval & scoped authority |
-| Tool logs as "audit" | Receipts, proof summaries & exportable proof bundles |
-| Memory as sticky notes | Evidence-bound memory governance |
-
-<br/>
-
-## ⚙️ Tech Stack
-
-<div align="center">
-
-**AI & Agent Infrastructure**
-
-<img src="https://skillicons.dev/icons?i=py,fastapi,pytorch,docker&theme=dark" />
-
-**Frontend & Full-Stack**
-
-<img src="https://skillicons.dev/icons?i=ts,js,vue,nuxt,react,nodejs&theme=dark" />
-
-**Tools & Platform**
-
-<img src="https://skillicons.dev/icons?i=git,linux,vscode,github&theme=dark" />
-
-</div>
-
-<br/>
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=heggria&show_icons=true&theme=catppuccin_mocha&hide_border=true&bg_color=00000000&include_all_commits=true&count_private=true&ring_color=cba6f7" />
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=heggria&layout=compact&theme=catppuccin_mocha&hide_border=true&bg_color=00000000&langs_count=8" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=heggria&theme=catppuccin-mocha&hide_border=true&background=00000000&ring=cba6f7&fire=f5c2e7&currStreakLabel=cdd6f4" />
-</div>
-
-<br/>
-
-## 🏆 Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=heggria&no-frame=true&no-bg=true&column=7&theme=catppuccin_mocha" />
-</div>
-
-<br/>
-
-## 🚀 More Projects
-
-<div align="center">
-  <a href="https://github.com/heggria/agent-usage-atlas">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=agent-usage-atlas&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
-  </a>
-  <a href="https://github.com/heggria/VueScope">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=VueScope&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
-  </a>
-</div>
-<div align="center">
-  <a href="https://github.com/heggria/lext">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=lext&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
-  </a>
-  <a href="https://github.com/heggria/local-rag-mcp">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=heggria&repo=local-rag-mcp&theme=catppuccin_mocha&hide_border=true&bg_color=00000000" />
-  </a>
-</div>
-
-<br/>
-
-## 🐍 Contribution Snake
-
-<div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/heggria/heggria/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/heggria/heggria/output/github-snake.svg" />
-    <img alt="github contribution snake animation" src="https://raw.githubusercontent.com/heggria/heggria/output/github-snake-dark.svg" />
-  </picture>
-</div>
-
-<br/>
-
-## ⏱️ Coding Activity
-
-<details>
-<summary>WakaTime Stats (click to expand)</summary>
-<br/>
-
-<!--START_SECTION:waka-->
-![Code Time](http://img.shields.io/badge/Code%20Time-1%2C038%20hrs%205%20mins-blue?style=flat)
-
-![Profile Views](http://img.shields.io/badge/Profile%20Views-1-blue?style=flat)
-
-![Lines of code](https://img.shields.io/badge/From%20Hello%20World%20I%27ve%20Written-3.29%20million%20lines%20of%20code-blue?style=flat)
-
-**🐱 My GitHub Data** 
-
-> 📦 216.1 kB Used in GitHub's Storage 
- > 
-> 🏆 451 Contributions in the Year 2026
- > 
-> 🚫 Not Opted to Hire
- > 
-> 📜 29 Public Repositories 
- > 
-> 🔑 7 Private Repositories 
- > 
-**I'm an Early 🐤** 
+## How I build
 
 ```text
-🌞 Morning                279 commits         ████░░░░░░░░░░░░░░░░░░░░░   15.09 % 
-🌆 Daytime                956 commits         █████████████░░░░░░░░░░░░   51.70 % 
-🌃 Evening                544 commits         ███████░░░░░░░░░░░░░░░░░░   29.42 % 
-🌙 Night                  70 commits          █░░░░░░░░░░░░░░░░░░░░░░░░   03.79 % 
-```
-📅 **I'm Most Productive on Tuesday** 
-
-```text
-Monday                   347 commits         █████░░░░░░░░░░░░░░░░░░░░   18.77 % 
-Tuesday                  439 commits         ██████░░░░░░░░░░░░░░░░░░░   23.74 % 
-Wednesday                362 commits         █████░░░░░░░░░░░░░░░░░░░░   19.58 % 
-Thursday                 231 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.49 % 
-Friday                   121 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.54 % 
-Saturday                 124 commits         ██░░░░░░░░░░░░░░░░░░░░░░░   06.71 % 
-Sunday                   225 commits         ███░░░░░░░░░░░░░░░░░░░░░░   12.17 % 
+define the contract
+      ↓
+verify before model spend
+      ↓
+execute with bounded authority
+      ↓
+persist receipts and evidence
+      ↓
+resume, replay, or roll back
 ```
 
+I value:
 
-📊 **This Week I Spent My Time On** 
+- **claim-to-implementation parity** — documentation should describe what the current release actually does;
+- **fail-closed boundaries** — permissions, secrets, paths, and provider behavior must be explicit;
+- **reproducible releases** — tests, package smoke checks, provenance, and published artifacts are one release contract;
+- **dogfooding** — real workflows should expose reliability problems before users do.
 
-```text
-💬 Programming Languages: 
-No Activity Tracked This Week
-```
+## Contact
 
-**Timeline**
-
-![Lines of Code chart](https://raw.githubusercontent.com/heggria/heggria/main/assets/bar_graph.png)
-
-
- Last Updated on 15/07/2026 19:47:53 UTC
-<!--END_SECTION:waka-->
-
-</details>
-
-<br/>
-
----
-
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=heggria&style=for-the-badge&color=cba6f7&label=PROFILE+VIEWS&labelColor=1e1e2e" />
-</div>
+The best way to discuss a project is through its GitHub Issues or Discussions. For other conversations, reach me through [my website](https://heggria.site).
