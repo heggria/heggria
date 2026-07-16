@@ -29,7 +29,7 @@ I am interested in tools that make their boundaries visible, systems that can ex
 | [taskflow](https://github.com/heggria/taskflow) | Verifiable, resumable multi-agent workflows |
 | [Hermit](https://pypi.org/project/hermit-agent/) | A governed local kernel for long-running work |
 | [Home Compass](https://github.com/heggria/home-compass) | Explainable decisions under real housing constraints |
-| [SBTI Lab](https://github.com/heggria/sbti-lab) | A personal mirror across values, motives, behavior, contradictions, and change — beyond personality types |
+| [SelfField](https://heggria.github.io/selffield/) | A living mirror for evidence, tensions, context, and change — without personality labels |
 
 ## About
 
