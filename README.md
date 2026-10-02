@@ -9,12 +9,12 @@
 
 ### I make agent runs verifiable, replayable, and incremental.
 
-Agent infrastructure · [@minimax](https://github.com/minimax) · Beijing
+Agent infrastructure & product engineering · [OpenDesign](https://github.com/nexu-io/open-design) · Beijing
 
 [![taskflow](https://img.shields.io/npm/v/pi-taskflow?style=flat-square&color=7775FF&label=taskflow)](https://www.npmjs.com/package/pi-taskflow)
-[![installs](https://img.shields.io/npm/dm/pi-taskflow?style=flat-square&color=1f6feb&label=installs%2Fmo)](https://www.npmjs.com/package/pi-taskflow)
+[![pi-taskflow downloads](https://img.shields.io/npm/dm/pi-taskflow?style=flat-square&color=1f6feb&label=pi-taskflow%20downloads%2Fmo)](https://www.npmjs.com/package/pi-taskflow)
 [![stars](https://img.shields.io/github/stars/heggria/taskflow?style=flat-square&color=444&label=stars)](https://github.com/heggria/taskflow/stargazers)
-[![tests](https://img.shields.io/badge/tests-1%2C500%2B-3fb950?style=flat-square)](https://github.com/heggria/taskflow/tree/main/packages)
+[![CI](https://img.shields.io/github/actions/workflow/status/heggria/taskflow/ci.yml?branch=main&style=flat-square&label=CI)](https://github.com/heggria/taskflow/actions/workflows/ci.yml)
 
 [`taskflow`](https://github.com/heggria/taskflow)
 &nbsp;·&nbsp;
@@ -29,6 +29,17 @@ Agent infrastructure · [@minimax](https://github.com/minimax) · Beijing
 </div>
 
 ---
+
+## Current work & collaboration
+
+- **At work — [OpenDesign](https://github.com/nexu-io/open-design):** the open-source, local-first design application where I work.
+- **Personal open source — [taskflow](https://github.com/heggria/taskflow):** verifiable, replayable coding-agent workflows.
+- **Collaborate:** try a [host guide](https://heggria.github.io/taskflow/en/docs/guides/), bring a reproducible workflow to [Issues](https://github.com/heggria/taskflow/issues), or contribute an example, host fix, or diagnostic improvement via the [contribution guide](https://github.com/heggria/taskflow/blob/main/CONTRIBUTING.md).
+
+---
+
+<details>
+<summary>A real run: a verification gate stopped downstream work</summary>
 
 ## A run that stopped before paying for the expensive part
 
@@ -54,6 +65,8 @@ You can price a run before spending on it, and re-ask what happened after it end
 
 ---
 
+</details>
+
 ## Now building — [taskflow](https://github.com/heggria/taskflow)
 
 **The compounding layer for multi-agent work.**
@@ -62,11 +75,11 @@ resumable across sessions, replayable without tokens, recomputed from the smalle
 
 | | |
 |---|---|
-| **Runs on** | Pi · Codex · Claude Code · OpenCode · Grok Build |
-| **Surface** | 12 phase types · 18 built-in agents · 19 MCP tools · TypeScript DSL → portable JSON |
+| **Runs on** | Pi · Codex · Claude Code · OpenCode · Grok Build · Hermes Agent; see the [host support baseline](https://github.com/heggria/taskflow/blob/main/conformance/workspace/host-support-baseline.json) |
+| **Surface** | 12 phase types · 18 built-in agents · 20 MCP tools · TypeScript DSL → portable JSON |
 | **Compiled identity** | FlowIR + content hash → provenance, stale analysis, cross-run cache |
-| **Proof** | 1,500+ tests · 9 published packages · MIT · CI on `main` + every PR |
-| **Adoption** | ~3.3k npm installs / month |
+| **Evidence** | MIT · [CI](https://github.com/heggria/taskflow/actions/workflows/ci.yml) · [releases](https://github.com/heggria/taskflow/releases) · [host support baseline](https://github.com/heggria/taskflow/blob/main/conformance/workspace/host-support-baseline.json) |
+| **Distribution** | 10 taskflow packages on npm. The badge above tracks `pi-taskflow` downloads; downloads are not unique users. |
 
 ```text
 verify before spend  ·  replay without tokens  ·  recompute the stale frontier
@@ -84,8 +97,9 @@ Following me is a subscription, so here is what it buys.
 
 | Status | What |
 |---|---|
-| 🚧 in progress | **taskflow 0.3.0 — Trusted Effects.** Declared side effects with confidentiality/integrity labels; filesystem writes promoted only through `snapshot → stage → verify → commit`. `whyAuthorized` / `whyEffect` explain any write after the fact. Branch: `feat/0.3.0-trusted-effects`. |
-| 🚧 in progress | **Honest host baseline.** A published conformance matrix of what each of the five hosts actually supports — no capability claimed that isn't tested. |
+| 🧪 published beta | **[taskflow 0.3.0-beta.1.2](https://github.com/heggria/taskflow/releases/tag/v0.3.0-beta.1.2) — Trusted Effects.** Declared filesystem effects and ledger-backed explanations. Beta, not GA or an OS sandbox; read the [scope and limitations](https://github.com/heggria/taskflow#security-boundaries-we-state-plainly). |
+| 📋 published baseline | **[Host support matrix](https://github.com/heggria/taskflow/blob/main/conformance/workspace/host-support-baseline.json).** Six host adapters, with support and enforcement limits recorded per host. |
+| 🚧 draft | **[0.3.0-beta.2 Control Plane work](https://github.com/heggria/taskflow/pull/142).** Active development; not a released feature. |
 | ⏭ next | **Write up incremental recompute for agent graphs** — what Bazel/Nix/Salsa get right, and what breaks when the "build steps" are nondeterministic. |
 
 Watch [taskflow releases](https://github.com/heggria/taskflow/releases) for the shipping version of this list.
@@ -132,7 +146,7 @@ Things I built for myself. Listed because they're where the ideas got tested fir
 
 ## About
 
-I work at MiniMax in Beijing, between agent infrastructure and full-stack products.
+I work at [OpenDesign](https://github.com/nexu-io/open-design) in Beijing, between agent infrastructure and full-stack products.
 Day languages: TypeScript · Python · Node.js · Vue — but the language I care about most is
 the one between a system and the person trying to understand it.
 
