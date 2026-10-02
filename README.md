@@ -98,7 +98,7 @@ Following me is a subscription, so here is what it buys.
 | Status | What |
 |---|---|
 | 🧪 published beta | **[taskflow 0.3.0-beta.1.2](https://github.com/heggria/taskflow/releases/tag/v0.3.0-beta.1.2) — Trusted Effects.** Declared filesystem effects and ledger-backed explanations. Beta, not GA or an OS sandbox; read the [scope and limitations](https://github.com/heggria/taskflow#security-boundaries-we-state-plainly). |
-| 📋 published baseline | **[Host support matrix](https://github.com/heggria/taskflow/blob/main/conformance/workspace/host-support-baseline.json).** Six host adapters, with support and enforcement limits recorded per host. |
+| 📋 published baseline | **[Host support matrix](https://github.com/heggria/taskflow/blob/main/conformance/workspace/host-support-baseline.json).** Published filesystem, secret, and service support limits. Adapter availability does not imply a tested enforcement guarantee for every host. |
 | 🚧 draft | **[0.3.0-beta.2 Control Plane work](https://github.com/heggria/taskflow/pull/142).** Active development; not a released feature. |
 | ⏭ next | **Write up incremental recompute for agent graphs** — what Bazel/Nix/Salsa get right, and what breaks when the "build steps" are nondeterministic. |
 
