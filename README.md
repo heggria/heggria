@@ -24,7 +24,7 @@
     <img src="assets/taskflow-light.svg" width="100%" alt="01 — taskflow. Agent workflows. Make the run inspectable.">
   </picture>
 
-**taskflow · Creator & maintainer**  
+**taskflow · Creator & maintainer**<br>
 Declarative workflows for coding agents. Verify the graph, inspect what happened, replay the trace, and recompute what changed.
 
 [Explore the code ↗](https://github.com/heggria/taskflow) · [Read the docs](https://heggria.github.io/taskflow/) · [Try an example](https://github.com/heggria/taskflow/tree/main/examples)
@@ -38,7 +38,7 @@ Declarative workflows for coding agents. Verify the graph, inspect what happened
     <img src="assets/opendesign-light.svg" width="100%" alt="02 — OpenDesign. At work. Design meets engineering. Conceptual illustration.">
   </picture>
 
-**OpenDesign · Where I work**  
+**OpenDesign · Where I work**<br>
 An open-source, local-first design application. My work sits between agent infrastructure and full-stack product engineering.
 
 [Explore OpenDesign ↗](https://github.com/nexu-io/open-design)
@@ -50,7 +50,7 @@ An open-source, local-first design application. My work sits between agent infra
     <img src="assets/selffield-light.svg" width="100%" alt="03 — SelfField. Personal experiment. A mirror, without the labels. Conceptual illustration.">
   </picture>
 
-**SelfField · Personal experiment**  
+**SelfField · Personal experiment**<br>
 A personal mirror built around evidence and tension, without personality labels.
 
 [Open the experiment ↗](https://heggria.github.io/selffield/) · [Source](https://github.com/heggria/selffield)
