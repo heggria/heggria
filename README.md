@@ -67,8 +67,8 @@ A personal mirror built around evidence and tension, without personality labels.
 
 **Writing**
 <!-- writing:start -->
-- `2026-08-14` [八月的个人项目整理](https://heggria.github.io/writing/only-what-can-be-checked/)
-- `2026-08-09` [让 Pi 审批记录显式确认](https://heggria.github.io/writing/approval-needs-a-yes/)
+- `2026-08-15` [八月的个人项目整理](https://heggria.github.io/writing/only-what-can-be-checked/)
+- `2026-08-10` [让 Pi 审批记录显式确认](https://heggria.github.io/writing/approval-needs-a-yes/)
 <!-- writing:end -->
 
 [All releases](https://github.com/heggria/taskflow/releases) · [All writing](https://heggria.github.io/writing/) · [RSS](https://heggria.github.io/rss.xml)

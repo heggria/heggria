@@ -50,4 +50,7 @@ class ProfileRefreshTests(unittest.TestCase):
     def test_unexpected_feed_link_is_rejected(self):
         with self.assertRaises(ValueError): updater.writing_lines(FEED.replace(b'https://heggria.github.io/writing/latest/', b'https://example.com/unrelated/'))
 
+    def test_writing_date_matches_blog_timezone(self):
+        self.assertIn('`2026-08-15`', updater.writing_lines(FEED))
+
 if __name__ == '__main__': unittest.main()

@@ -8,6 +8,7 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from email.utils import parsedate_to_datetime
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
 
@@ -52,7 +53,8 @@ def writing_lines(raw):
         url = i.findtext('link')
         if not url or not url.startswith('https://heggria.github.io/writing/'):
             raise ValueError('Unexpected writing URL')
-        rows.append(f"- `{d.date().isoformat()}` [{md(i.findtext('title') or 'Untitled')}]({url})")
+        date = d.astimezone(ZoneInfo('Asia/Shanghai')).date().isoformat()
+        rows.append(f"- `{date}` [{md(i.findtext('title') or 'Untitled')}]({url})")
     return '\n'.join(rows)
 
 
