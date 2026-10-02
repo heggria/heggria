@@ -8,7 +8,7 @@
 
 <p align="center">
   I build verifiable agent workflows and tools with a point of view.<br>
-  Agent infrastructure &amp; product engineering at <a href="https://github.com/nexu-io/open-design">OpenDesign</a> · Beijing
+  Agent infrastructure &amp; product engineering at <a href="https://github.com/nexu-io/open-design">OpenDesign</a> · Shanghai
 </p>
 
 <p align="center">

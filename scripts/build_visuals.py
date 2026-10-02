@@ -62,7 +62,7 @@ def graph(p, mobile=False):
 for theme,p in PALETTES.items():
     b='<rect x="620" y="20" width="560" height="430" fill="url(#dots)"/>'
     b+=text(48,51,'H / PERSONAL LAB',14,'mono muted','letter-spacing="2"')
-    b+=text(1152,51,'BEIJING · OPEN SOURCE',12,'mono muted','text-anchor="end" letter-spacing="1"')
+    b+=text(1152,51,'SHANGHAI · OPEN SOURCE',12,'mono muted','text-anchor="end" letter-spacing="1"')
     b+=text(46,155,'HEGGRIA',82,'','font-weight="750" letter-spacing="-5"')
     b+=text(50,228,'Work that',40,'','font-weight="400" letter-spacing="-1.5"')
     b+=text(50,277,'outlives the chat.',40,'','font-weight="400" letter-spacing="-1.5"')
