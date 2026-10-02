@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="210" viewBox="0 0 940 210" role="img" aria-labelledby="title desc">
+<title id="title">taskflow — AGENT WORKFLOWS. Conceptual illustration.</title><desc id="desc">Original illustration by Heggria. Workflow animation is a schematic, not a live run.</desc>
+<defs>
+<radialGradient id="glow"><stop stop-color="#bfa3ff" stop-opacity=".19"/><stop offset="1" stop-color="#bfa3ff" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#b0a8c2" opacity=".2"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#f5f1ff}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.muted{fill:#b0a8c2}</style>
+<rect width="940" height="210" rx="24" fill="#111119"/>
+<rect x="460" y="0" width="540" height="210" fill="url(#dots)"/><text x="32" y="40" font-size="12" class="mono muted" letter-spacing="1.5">01 / AGENT WORKFLOWS</text><text x="30" y="110" font-size="50" class="" font-weight="600" letter-spacing="-2">taskflow</text><text x="32" y="160" font-size="18" class="muted" >Make the run inspectable.</text><path d="M544 105H596Q608 105 608 55H679Q691 55 691 105H735" fill="none" stroke="#bfa3ff" stroke-width="2"/><rect x="628" y="42" width="40" height="26" rx="7" fill="#191923" stroke="#bfa3ff"/><path d="M544 105H596Q608 105 608 105H679Q691 105 691 105H735" fill="none" stroke="#bfa3ff" stroke-width="2"/><rect x="628" y="92" width="40" height="26" rx="7" fill="#191923" stroke="#bfa3ff"/><path d="M544 105H596Q608 105 608 155H679Q691 155 691 105H735" fill="none" stroke="#bfa3ff" stroke-width="2"/><rect x="628" y="142" width="40" height="26" rx="7" fill="#191923" stroke="#bfa3ff"/><circle cx="536" cy="105" r="12" fill="#bfa3ff"/><rect x="738" y="89" width="32" height="32" rx="5" transform="rotate(45 754 105)" fill="#191923" stroke="#f0c58d" stroke-width="2"/><path d="M784 105H848" stroke="#393345" stroke-width="2" stroke-dasharray="5 5"/><circle cx="864" cy="105" r="12" fill="none" stroke="#393345" stroke-width="2"/>
+</svg>

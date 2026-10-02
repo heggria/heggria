@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="940" height="210" viewBox="0 0 940 210" role="img" aria-labelledby="title desc">
+<title id="title">SelfField — PERSONAL EXPERIMENT. Conceptual illustration.</title><desc id="desc">Original illustration by Heggria. Workflow animation is a schematic, not a live run.</desc>
+<defs>
+<radialGradient id="glow"><stop stop-color="#7650ad" stop-opacity=".19"/><stop offset="1" stop-color="#7650ad" stop-opacity="0"/></radialGradient>
+<pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse"><circle cx="1" cy="1" r=".7" fill="#70617e" opacity=".2"/></pattern>
+</defs>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#30263f}.mono{font-family:ui-monospace,SFMono-Regular,Consolas,monospace}.muted{fill:#70617e}</style>
+<rect width="940" height="210" rx="24" fill="#f5f2fa"/>
+<rect x="460" y="0" width="540" height="210" fill="url(#dots)"/><text x="32" y="40" font-size="12" class="mono muted" letter-spacing="1.5">03 / PERSONAL EXPERIMENT</text><text x="30" y="110" font-size="50" class="" font-weight="600" letter-spacing="-2">SelfField</text><text x="32" y="160" font-size="18" class="muted" >A mirror, without the labels.</text><circle cx="722" cy="105" r="26" fill="none" stroke="#d6cde1"/><circle cx="722" cy="105" r="49" fill="none" stroke="#d6cde1"/><circle cx="722" cy="105" r="74" fill="none" stroke="#d6cde1"/><path d="M722 31L778 75L764 144L684 158L662 86Z" fill="#7650ad" fill-opacity=".11" stroke="#7650ad" stroke-width="2"/><circle cx="722" cy="31" r="4" fill="#a4517d"/><circle cx="778" cy="75" r="4" fill="#a4517d"/><circle cx="764" cy="144" r="4" fill="#a4517d"/><circle cx="684" cy="158" r="4" fill="#a4517d"/><circle cx="662" cy="86" r="4" fill="#a4517d"/><circle cx="722" cy="105" r="7" fill="#7650ad"/>
+</svg>
