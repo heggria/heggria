@@ -13,15 +13,14 @@ def svg(w, h, title, body, p, animated=False):
     motion = '''
 .flow{stroke-dasharray:7 17;animation:flow 4s linear infinite}
 .signal{animation:signal 14s ease-in-out infinite}
+.flow.signal{animation:flow 4s linear infinite,signal 14s ease-in-out infinite}
 .gate{animation:gate 14s ease-in-out infinite}
 .replay{stroke-dasharray:6 12;animation:replay 14s linear infinite}
-.orbit{transform-origin:920px 221px;animation:orbit 70s linear infinite}
 @keyframes flow{to{stroke-dashoffset:-96}}
 @keyframes signal{0%,5%{opacity:.2}18%,37%{opacity:1}48%,100%{opacity:.2}}
 @keyframes gate{0%,30%{opacity:.3}38%,57%{opacity:1}70%,100%{opacity:.3}}
 @keyframes replay{0%,57%{opacity:0;stroke-dashoffset:0}63%{opacity:1}92%{opacity:1;stroke-dashoffset:120}100%{opacity:0;stroke-dashoffset:150}}
-@keyframes orbit{to{transform:rotate(360deg)}}
-@media(prefers-reduced-motion:reduce){.flow,.signal,.gate,.replay,.orbit{animation:none!important}.replay{opacity:.5}}
+@media(prefers-reduced-motion:reduce){.flow,.signal,.gate,.replay{animation:none!important}.replay{opacity:.5}}
 ''' if animated else ''
     return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{w}" height="{h}" viewBox="0 0 {w} {h}" role="img" aria-labelledby="title desc">
 <title id="title">{escape(title)}</title><desc id="desc">Original illustration by Heggria. Workflow animation is a schematic, not a live run.</desc>
