@@ -61,14 +61,14 @@ A personal mirror built around evidence and tension, without personality labels.
 
 **Releases**
 <!-- releases:start -->
+- `2026-10-10` [taskflow v1.0.0](https://github.com/heggria/taskflow/releases/tag/v1.0.0)
 - `2026-08-20` [taskflow v0.3.0-beta.1.2](https://github.com/heggria/taskflow/releases/tag/v0.3.0-beta.1.2) · prerelease
-- `2026-08-18` [taskflow v0.3.0-beta.1.1](https://github.com/heggria/taskflow/releases/tag/v0.3.0-beta.1.1) · prerelease
 <!-- releases:end -->
 
 **Writing**
 <!-- writing:start -->
-- `2026-10-02` [改了一个输入，哪些工作需要重来？](https://heggria.github.io/writing/recompute-case-study/)
-- `2026-08-15` [八月的个人项目整理](https://heggria.github.io/writing/only-what-can-be-checked/)
+- `2026-10-10` [未来 AI 竞争，什么东西最值钱？](https://heggria.github.io/writing/ai-competition-what-is-valuable/)
+- `2026-10-09` [Agent 卡住了，重启为什么不一定管用？](https://heggria.github.io/writing/agent-waiting-for-tool-result/)
 <!-- writing:end -->
 
 [All releases](https://github.com/heggria/taskflow/releases) · [All writing](https://heggria.github.io/writing/) · [RSS](https://heggria.github.io/rss.xml)
